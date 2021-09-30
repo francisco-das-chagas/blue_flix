@@ -9,195 +9,73 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>BlueFlix</title>
+  <title> ▶️ BlueFlix</title>
 </head>
 
 <body>
   <div>
     <main>
-      <h1 class="header">BlueFlix</h1>
+      <h1 class="header">BLUEFlix<span>▶️</span></h1>
     </main>
   </div>
+
+
   <div class="title">
     <h1>Meus Filmes Favoritos</h1>
   </div>
+
   <section class="first-area">
 
+    <form class="form">
+      <div class="container1">
+        <div class="container-labels">
+          <label for="nome-filme">
+            <p>Nome:</p>
+          </label>
+          <input type="text" id="nome-filme" placeholder="  Digite o nome do filme">
+        </div>
 
-    <div class="container1">
-
-      <div class="container-labels">
-        <p>Nome:</p>
-        <input type="text" placeholder="  Digite o nome do filme">
+        <div class="container-labels">
+          <label for="url-imagem">
+            <p>Imagem:</p>
+          </label>
+          <input type="text" id="url-imagem" placeholder="  Adicione a url da imagem">
+        </div>
       </div>
 
-      <div class="container-labels">
-        <p>Imagem:</p>
-        <input type="text" placeholder="  Adicione a url da imagem">
+      <div class="container2">
+        <div class="container-labels">
+
+          <label for="genero">
+            <p>Genero:</p>
+          </label>
+          <input type="text" id="genero" placeholder=" Digite o Genero do filme">
+        </div>
+
+        <div class="container-labels">
+
+          <label for="nota">
+            <p>Nota:</p>
+          </label>
+          <input type="text" id="nota" placeholder="Nota de 0 a 10">
+        </div>
+
+      </div>
+      <div class="button">
+        <button type="submit" >Enviar</button>
       </div>
 
-    </div>
-
-    <div class="container2">
-      <div class="container-labels">
-        <p>Nome:</p>
-        <input type="text" placeholder="  Digite o nome do filme">
-      </div>
-
-      <div class="container-labels">
-        <p>Imagem:</p>
-        <input type="text" placeholder="  Adicione a url da imagem">
-      </div>
-    </div>
-
-    <div class="button">
-      <button type="submit">Enviar</button>
-    </div>
+    </form>
 
   </section>
 
-  <div class="area-movies">
-
-    <!-- CARD -->
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-      <div class="card-header">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Avengers_Endgame.jpg/250px-Avengers_Endgame.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Vingadores Ultimato
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">8.7</span>
-      </div>
-
-    </div>
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-
-      <div class="card-header">
-        <img
-          src="https://img.elo7.com.br/product/zoom/37EF98B/big-poster-liga-da-justica-snyder-cut-lo001-presente-nerd.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Liga da Justiça Snyder Cut
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">9.2</span>
-      </div>
-
-    </div>
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-
-      <div class="card-header">
-        <img src="https://br.web.img3.acsta.net/pictures/20/06/23/20/57/4275033.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Mulher Maravilha
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">8.0</span>
-      </div>
-
-    </div>
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-
-      <div class="card-header">
-        <img src="https://br.web.img3.acsta.net/pictures/20/06/23/20/57/4275033.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Mulher Maravilha
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">8.0</span>
-      </div>
-
-    </div>
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-
-      <div class="card-header">
-        <img src="https://br.web.img3.acsta.net/pictures/20/06/23/20/57/4275033.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Mulher Maravilha
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">8.0</span>
-      </div>
-
-    </div>
-
-    <div class="card">
-      <i class="close-card">
-        x
-      </i>
-
-      <div class="card-header">
-        <img src="https://br.web.img3.acsta.net/pictures/20/06/23/20/57/4275033.jpg" />
-      </div>
-
-      <div class="card-body">
-        <div class="card-info">
-          <h3>
-            Mulher Maravilha
-          </h3>
-          <span class="tag tag-red">Ação</span>
-        </div>
-        <span class="note">8.0</span>
-      </div>
-
-    </div>
-
-
-
-  </div>
-  <!--Area-movies-->
-
-
+        <div class="card"> 
+             
+       </div>
 
   
-
-
-
+  <!-- CARD -->
+  <script src="script.js"></script>
 </body>
 
 </html>
