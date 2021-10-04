@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212;
+}
+
+/* HEADER */
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(161, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar h1 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.navbar h1::after {
+  margin-left: 1px;
+  margin-top: 10px;
+  content: "▶️";
+  font-size: 2rem;
+}
+
+/* FORM */
+.container-form h3 {
+  margin-top: 30px;
+  font-size: 2.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.container1,
+.container2 {
+  width: 700px;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #fff;
+  align-items: center;
+}
+.container1 .row,
+.container2 .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 label,
+.container2 label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+.container1 input,
+.container2 input {
+  font-size: 1rem;
+  width: 230px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.botao {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 500px;
+}
+
+.btn {
+  outline: none;
+
+  width: 130px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a11818;
+  color: #fff;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+
+  transition: 200ms;
+}
+
+.btn:hover {
+  background-color: rgb(197, 0, 0);
+}
+
+/* CARD */
+.card-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+section .container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  
+}
+
+.card .card-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  font-family: 'Poppins';
+  
+}
+
+.spans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.spans .genre {
+  width: 80px;
+  padding: 3px 10px;
+  font-size: 1rem;
+  background-color: #a11818;
+  border-radius: 9px;
+  color: #fff;
+}
+.spans .nota {
+  font-size: 70px;
+  font-weight: 800;
+  color: #000;
+}
+
+
+/* BOTOES */
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons .edit {
+  margin-top: 15px;
+  outline: none;
+
+  width: 80px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1400c8;
+  color: #fff;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  transition: 600ms;
+}
+
+.buttons .edit:hover {
+  background-color: #fff;
+  color: #1400c8;
+  font-weight: 600;
+}
+
+
+.buttons .delete {
+  margin-top: 10px;
+  outline: none;
+
+  width: 80px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c80000;
+  color: #fff;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  transition: 600ms;
+}
+.buttons .delete:hover {
+  background-color: #fff;
+  color: #c80000;
+  font-weight: 600;
+}
