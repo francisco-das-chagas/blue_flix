@@ -19,11 +19,12 @@
 <body>
   <header>
     <nav class="navbar">
-      <div >
-        <h1 class="navbar-brand mb-0 h1 text-white">Blueflix  </h1> 
-      </div>
+      <div > <h1 class="navbar-brand mb-0 h1 text-white">Blueflix</h1> </div>
     </nav>
   </header>
+
+
+
   <main>
     <form onsubmit="submitForm(event)" id="form" class="container-form">
       <h3>Meus filmes favoritos</h3>
@@ -37,26 +38,33 @@
           <input type="text" required id="url" class="form-control"  placeholder=" Digite a URL da Imagem...">
         </div>
       </div>
+
+      
+
+      
       <div class="container2">
         <div class="row" >
           <label for="genero">Gênero</label>
-          <input type="text" required id="genero" class="form-control"  placeholder=" Digite o gênero do filme...">
+          <input type="text" required id="genero" class="form-control"  placeholder=" Digite o gênero do filme..." />
         </div>
         <div  class="row">
           <label for="nota">Nota</label>
-          <input type="text" required id="nota" class="form-control"  placeholder=" Digite a nota...">
+          <input type="text" required id="nota" class="form-control"  placeholder=" Digite a nota..."/>
         </div>
       </div>
+
       <div >
         <div class="botao">
           <button type="submit" class="btn">Enviar</button>
         </div>
       </div>
+
     </form>
-    <section class="container-card">
-      <div class="row" id="lista">
+
+   
+      <div id="lista">
       </div>
-    </section>
+    
   </main>
   <script src="index.js"></script>
 </body>
